@@ -1,10 +1,6 @@
-<div align="center">
+<div align="center"> <img width="800" alt="Todo App Screenshot 1" src="https://github.com/user-attachments/assets/30da6919-9075-48b2-b98f-f8e3d9d3b5e1" /> <img width="800" alt="Todo App Screenshot 2" src="https://github.com/user-attachments/assets/27984c21-7182-4fc8-b8df-e7646606ff86" /> <img width="800" alt="Todo App Screenshot 3" src="https://github.com/user-attachments/assets/8f13a92d-930f-4c19-939e-b43622aa8a26" />
 
-<img width="1820" height="807" alt="image" src="https://github.com/user-attachments/assets/30da6919-9075-48b2-b98f-f8e3d9d3b5e1" />
-<img width="1810" height="812" alt="image" src="https://github.com/user-attachments/assets/27984c21-7182-4fc8-b8df-e7646606ff86" />
-<img width="1470" height="827" alt="image" src="https://github.com/user-attachments/assets/8f13a92d-930f-4c19-939e-b43622aa8a26" />
-
-
+Show Image
 
 </div>
 📋 About
