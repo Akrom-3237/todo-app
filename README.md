@@ -81,16 +81,20 @@ src/main/
 
 ```
 Client (Browser)
+       ↓  HTTP Request
+Servlets (Controller)
        ↓
-   Servlets (Controller)
+  DAO Layer (Data Access)
        ↓
-   DAO Layer (Data Access)
+JPA / Hibernate (ORM)
        ↓
-   JPA / Hibernate (ORM)
-       ↓
-   PostgreSQL (Database)
-       ↓
-   JSP Pages (View) → Client
+PostgreSQL (Database)
+       ↓  Data returns
+  DAO → Servlet
+       ↓  forward
+ JSP Pages (View)
+       ↓  HTML Response
+Client (Browser)
 ```
 
 ---
