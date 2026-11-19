@@ -82,8 +82,6 @@ src/main/
 ```
 Client (Browser)
        ↓
-   JSP Pages (View)
-       ↓
    Servlets (Controller)
        ↓
    DAO Layer (Data Access)
@@ -91,6 +89,8 @@ Client (Browser)
    JPA / Hibernate (ORM)
        ↓
    PostgreSQL (Database)
+       ↓
+   JSP Pages (View) → Client
 ```
 
 ---
