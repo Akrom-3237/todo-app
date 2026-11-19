@@ -46,30 +46,33 @@ This project demonstrates core Java backend skills: **Servlet lifecycle**, **JSP
 ## 🏗️ Project Structure
 
 ```
-src/main/java/dasturlash/uz/
-├── config/
-│   └── DbConfig.java          # Database configuration
-├── dao/
-│   ├── TodoDao.java            # Todo CRUD operations
-│   └── UserDao.java            # User CRUD operations
-├── filter/
-│   └── AuthFilter.java         # Authentication filter
-├── model/
-│   ├── Todo.java               # Todo entity
-│   └── User.java               # User entity
-├── servlet/
-│   ├── LoginServlet.java       # Login handler
-│   ├── LogoutServlet.java      # Logout handler
-│   ├── RegisterServlet.java    # Registration handler
-│   └── TodoServlet.java        # Todo CRUD handler
-
-src/main/webapp/
-├── WEB-INF/
-│   └── web.xml                 # Deployment descriptor
-├── index.jsp                   # Home page
-├── login.jsp                   # Login page
-├── register.jsp                # Registration page
-└── todos.jsp                   # Task management page
+src/main/
+├── java/dasturlash/uz/
+│   ├── config/
+│   │   └── DbConfig.java          # Database configuration
+│   ├── dao/
+│   │   ├── TodoDao.java            # Todo CRUD operations
+│   │   └── UserDao.java            # User CRUD operations
+│   ├── filter/
+│   │   └── AuthFilter.java         # Authentication filter
+│   ├── model/
+│   │   ├── Todo.java               # Todo entity
+│   │   └── User.java               # User entity
+│   └── servlet/
+│       ├── LoginServlet.java       # Login handler
+│       ├── LogoutServlet.java      # Logout handler
+│       ├── RegisterServlet.java    # Registration handler
+│       └── TodoServlet.java        # Todo CRUD handler
+├── resources/
+│   └── META-INF/
+│       └── persistence.xml         # JPA configuration
+└── webapp/
+    ├── WEB-INF/
+    │   └── web.xml                 # Deployment descriptor
+    ├── index.jsp                   # Home page
+    ├── login.jsp                   # Login page
+    ├── register.jsp                # Registration page
+    └── todos.jsp                   # Task management page
 ```
 
 ---
